@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.414.0",
-    "@clerk/nextjs": "^4.23.3",
-    "@neondatabase/serverless": "^0.6.0",
+    "@clerk/nextjs": "^4.31.8",
+    "@neondatabase/serverless": "^1.0.0",
     "@pinecone-database/doc-splitter": "^0.0.1",
     "@pinecone-database/pinecone": "^1.0.1",
     "@radix-ui/react-slot": "^1.0.2",
@@ -26,15 +26,14 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "dotenv": "^16.3.1",
-    "drizzle-kit": "^0.19.13",
-    "drizzle-orm": "^0.28.5",
+    "drizzle-orm": "^0.42.0",
     "encoding": "^0.1.13",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
     "langchain": "^0.0.150",
     "lucide-react": "^0.274.0",
     "md5": "^2.3.0",
-    "next": "13.4.19",
+    "next": "^15.3.1",
     "openai-edge": "^1.2.2",
     "pdf-parse": "^1.1.1",
     "pdfjs-dist": "^3.10.111",
@@ -50,5 +49,8 @@
     "tailwindcss": "3.3.3",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.0"
   }
 }
